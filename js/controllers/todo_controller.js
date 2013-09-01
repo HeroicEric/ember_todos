@@ -26,5 +26,5 @@ Todos.TodoController = Ember.ObjectController.extend({
     var todo = this.get('model');
     todo.deleteRecord();
     todo.save();
-  },
+  }
 });
